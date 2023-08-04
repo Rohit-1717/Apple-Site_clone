@@ -1,0 +1,711 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#page_1{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    background-image: url(https://www.apple.com/v/home/az/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_largetall.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#nav{
+    height: 40px;
+    width: 100%;
+    background-color: #454545;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    cursor: pointer;
+    font-weight: 400;
+    
+    
+}
+
+#nav h5{
+    color: white;
+    font-size:75%;
+    font-weight: lighter;
+    
+}
+
+
+#nav i{
+    color: white;
+}
+
+
+#add_bar{
+    height: 45px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#add_bar p{
+    font-size: 85%;
+    font-weight: light;
+}
+
+#add_bar a{
+    text-decoration: none;
+}
+
+#Title{
+    color: white;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    font-size: 55px;
+    font-style: normal;
+    font-weight:700;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#Quote{
+    color: white;
+    position: absolute;
+    left: 42%;
+    top: 30%;
+    font-size: 30px;
+    font-style: normal;
+    font-family: sans-serif;
+}
+
+#Learn_more{
+    position: absolute;
+    left:39%;
+    top:37%;
+    color: #2997FF;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+#Learn_more:hover{
+    transition: all ease 1s;
+    text-decoration: underline;
+}
+
+
+#buy{
+    position: absolute;
+    left:52%;
+    top:37%;
+    color: #2997FF;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+#buy:hover{
+    transition: all ease 1s;
+    text-decoration: underline;
+}
+
+#page_2{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    background-color:#fff;
+    background-image: url(https://www.apple.com/v/home/az/images/heroes/iphone-14/hero_iphone14_yellow__eun20sn4imi6_largetall.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#ifone{
+    color:#1D1D1F;
+    position: absolute;
+    left: 41%;
+    top: 110%;
+    font-size: 55px;
+    font-style: normal;
+    font-weight:700;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#line1{
+    color:#1D1D1F;
+    position: absolute;
+    left: 42.5%;
+    top: 121%;
+    font-size: 29px;
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: 50;
+}
+
+#line2{
+    color:#1D1D1F;
+    position: absolute;
+    left: 37%;
+    top: 126%;
+    font-size: 30px;
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: 50;
+}
+
+#Learn_more_page2{
+    position: absolute;
+    left: 43%;
+    top: 133.5%;
+    color: #1472D0;
+    font-size: 20px;
+    font-weight: 200;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+
+#Learn_more_page2:hover{
+    transition: all ease 1s;
+    text-decoration: underline;
+}
+
+
+#buy_page_2{
+    position: absolute;
+    left: 55%;
+    top: 133.5%;
+    color: #1472D0;
+    font-size: 20px;
+    font-weight: 200;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+
+#buy_page_2:hover{
+    transition: all ease 1s;
+    text-decoration: underline;
+}
+
+
+#page3{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    background-image: url(https://www.apple.com/v/home/az/images/heroes/apple-watch-series-8/hero_apple_watch_series_8_spring__b1y8wb7xjc9y_largetall.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+
+#aap_logo{
+    color:#fff;
+    position: absolute;
+    left: 42.1%;
+    top: 206.9%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    font-style:400%;
+    font-weight:bolder;
+    font-family: sans-serif;
+    font-weight: 230%;   
+}
+#Watch{
+    color:#fff;
+    position: absolute;
+    left: 45.5%;
+    top: 208%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40.5px;
+    font-style:400%;
+    font-weight:bolder;
+    font-family: sans-serif;
+    font-weight: 290%; 
+    letter-spacing: 3px;
+}
+
+
+#series{
+    color:#CC2127;
+    position: absolute;
+    left: 45.9%;
+    top: 217.5%;
+    font-size: 19.5px;
+    font-weight: 550;
+    letter-spacing: 5px;
+   
+}
+
+#Quote_3{
+    color:#fff;
+    position: absolute;
+    left: 39%;
+    top: 222%;
+    font-size: 30px;
+    font-weight: 430;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+#Learn_more_3{
+    position: absolute;
+    left: 41%;
+    top: 232%;
+    color: #1B63A8;
+    font-size: 20px;
+    font-weight: 550;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ; 
+}
+
+
+#Learn_more_3:hover{
+    transition: all ease 1s;
+    text-decoration: underline;
+}
+
+
+#buy_3{
+    
+    position: absolute;
+    left: 54%;
+    top: 232%;
+    color: #1F72C1;
+    font-size: 20px;
+    font-weight: 200;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+
+#buy_3:hover{
+    transition: all ease 1s;
+    text-decoration: underline;
+}
+
+#page_4{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    background-color:#fff;
+    
+}
+
+#trade_section{
+    position:relative;
+    top:10px;
+    left: 14px;
+    height:600px ;
+    width: 685px;
+    background-image: url(https://www.apple.com/v/home/az/images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_large.jpg);
+    background-position:center;
+    background-size:cover;
+}
+
+
+#trade_section i{
+    position: relative;
+    bottom: -41.9px;
+    right:-222px;
+    font-size: 32.5px;
+    color: #231F20;
+}
+
+
+#trade_section h5{
+    color: #231F20;
+    position: relative;
+    bottom: 3.1px;
+    right:-255px;
+    font-size: 39px;     
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+#trade_section p{
+    color:black ;
+    position: relative;
+    bottom: 2px;
+    right:-175px;
+    font-size: 19px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:499.5px;
+
+
+}
+
+#trade_section p1{
+    
+    color:royalblue ;
+    position: relative;
+    bottom: -10px;
+    right:-190px;
+    font-size: 16.5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:495;
+}
+
+
+#trade_section p1:hover{
+    transition: all ease 1s;
+    text-decoration: underline;
+}
+
+
+#WWDC h5{
+    color: #fff;
+    position:relative;
+    top: 380px;
+    left:240px;
+    font-size: 45px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: 400;
+}
+
+#WWDC i{
+    color: #fff;
+    position:relative;
+    top: 423.5px;
+    left:201.5px;
+    font-size: 39px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: 400;
+}
+
+#WWDC p{
+    color: #fff;
+    position:relative;
+    top: 385px;
+    left:135px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 450;
+    letter-spacing: 1px;
+}
+
+#WWDC p1{
+color: #fff;
+position: relative;
+top: 389px;
+left:185.5px;
+font-size:21px;
+font-family:Arial, Helvetica, sans-serif ;
+font-weight:450;
+}
+
+
+#WWDC p2{
+    color: #1E6DB8;
+    position: relative;
+    top: 420px;
+    left: -30px;
+    font-size:18px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight:200;
+    }
+
+
+    #WWDC p2:hover{
+        transition: all ease 1s;
+        text-decoration: underline;
+    }
+ 
+    
+
+#WWDC{
+    position:relative;
+    bottom:580px;
+    left: 715px;
+    height:600px ;
+    width: 640px;
+    background-image: url(https://www.apple.com/v/home/az/images/promos/wwdc23-announce/promo_wwdc23__b68ptht3mro2_large.jpg);
+    background-position:center;
+    background-size:cover;   
+}
+
+#iPad_section{
+    position: relative;
+    left:14px;
+    bottom:575px;
+    height: 600px;
+    width:685px;
+    background-image: url(https://www.apple.com/v/home/az/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg);
+    background-position: center; 
+}
+
+#iPad_section h5{
+    color: #1D1D1F;
+    position: relative;
+    left:285px;
+    top: 14px;
+    font-size: 45px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#iPad_section p{
+    color: #1D1D1F ;
+    position: relative;
+    left:206.5px;
+    top: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 19.5px;
+    font-weight:600;
+}
+
+#Learn-iPad{
+    
+    position: relative;
+    left:230px;
+    top: 30px;
+    font-size: 20px;
+    color: royalblue;
+}
+
+
+#Learn-iPad:hover{
+    transition: all ease 1s;
+    text-decoration: underline;
+}
+
+#buy-iPad{
+
+    position: relative;
+    left:365px;
+    top: 6.5px;
+    font-size: 18.5px;
+    color: royalblue;
+}
+
+#buy-iPad:hover{
+    transition: all ease 1s;
+    text-decoration: underline;
+}
+
+
+#Macbook_section{
+    position: relative;
+    left:715px;
+    bottom:1174.5px;
+    height: 600px;
+    width:640px;
+    background-image: url(https://www.apple.com/v/home/az/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_large.jpg);
+    background-position: center; 
+}
+
+#Tit-le{
+    color: #fff;
+    position: relative;
+    top: 8%;
+    left: 30%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38.5px;
+    font-weight: 600;
+}
+
+#super{
+    color: #fff;
+    position: relative;
+    top:9.5%;
+    left: 22.8%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18.5px;
+    font-weight: 400;
+}
+
+#Learn-Macbook{
+    color:royalblue;
+    position: relative;
+    top:12.5%;
+    left: 36.5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16.5px;
+    font-weight: 400;
+}
+
+#Learn-Macbook:hover{
+    transition: all ease 1s;
+    text-decoration: underline;    
+}
+
+
+
+#buy-Macbook{
+    color:royalblue;
+    position: relative;
+    top:9.2%;
+    left: 57.8%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16.5px;
+    font-weight: 400;
+}
+
+
+#buy-Macbook:hover{
+    transition: all ease 1s;
+    text-decoration: underline;
+}
+
+
+#Wrist_watch1{
+    position: relative;
+    left:14px;
+    bottom:1138.5px;
+    height: 600px;
+    width:640px;
+    background-image: url(https://www.apple.com/v/home/az/images/promos/mothers-day-2023/airpods/promo__sw58lbodkmqq_large.jpg);
+    background-position: center; 
+    background-size: cover;
+
+}
+    #line_1{
+        color: #1D1D1F;
+        position: relative;
+        top:8px ;
+        left:155px;
+        font-size: 38.5px;
+        font-weight:600;
+        font-family:Arial, Helvetica, sans-serif ;
+    }
+
+    #line_2{
+        color: #1D1D1F;
+        position: relative;
+        top:10px ;
+        left:137.5px;
+        font-size: 44.5px;
+        font-weight: 585;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #line_3{
+        color: #1D1D1F;
+        position: relative;
+        top:20px ;
+        left:220px;
+        font-size: 20.5px;
+        font-weight:100;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #line_4{
+        color: #1D1D1F;
+        position: relative;
+        top:25px ;
+        left:220px;
+        font-size: 20.5px;
+        font-weight:300;
+        font-family: Arial, Helvetica, sans-serif;
+    } 
+
+    #Shop{
+        color:royalblue;
+        position: relative;
+        top:35.5px ;
+        left:220px;
+        font-size:18.5px;
+        font-weight:50;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #Shop:hover{
+        transition: all ease 1s;
+        text-decoration: underline;
+    }
+
+
+#Wrist_watch2{
+    position: relative;
+    left:715px;
+    bottom:1740.5px;
+    height: 600px;
+    width:640px;
+    background-image: url(https://www.apple.com/in/home/promos/apple-watch-ultra/images/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+    background-position: center; 
+    background-size: cover;
+
+}
+
+#Wrist_watch2 i{
+    position:relative;
+    left:210px;
+    top:10px;
+    font-size:34.5px;
+}
+
+#watch_title{
+    position: relative;
+    left:243.5px ;
+    top:-20.95px ;
+    font-size:29.5px ;
+    font-family:sans-serif ;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#ultra{
+    color: #FD6A13;
+    position: relative;
+    left:265.5px ;
+    top:-15.95px ;
+    font-size:13.5px ;
+    font-family:sans-serif ;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#quote-w2{
+    
+    position: relative;
+    left:214.5px ;
+    top: -5.95px ;
+    font-size:20.5px ;
+    font-family:sans-serif ;
+    font-weight:100;
+    
+}
+
+#Learn-watch2{
+    color: royalblue;
+    position: relative;
+    left:214.5px ;
+    top: 10.95px ;
+    font-size:17.5px ;
+    font-family:sans-serif ;
+    font-weight:100;
+    
+}
+
+#Learn-watch2:hover{
+    transition: all ease 1s;
+    text-decoration: underline;
+}
+
+#buy-watch2{
+    color: royalblue;
+    position: relative;
+    left:334.5px ;
+    top: -9px ;
+    font-size:17.5px ;
+    font-family:sans-serif ;
+    font-weight:100;
+}
+
+
+#buy-watch2:hover{
+    transition: all ease 1s;
+    text-decoration: underline;
+}
+
+#vid-slider{
+    position: relative;
+    height:100%;
+    width: 100%;
+    background-color: red;
+}
